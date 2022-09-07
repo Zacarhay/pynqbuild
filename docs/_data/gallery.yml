@@ -2,7 +2,7 @@ docs_list_title: gallery
 docs:
 
 - title: Project 1
-  img: ./assets/images/Pynq-z1.png
+  img: ./images/Pynq-z1.png
   description: Small Description for the project
 
 - title: Project 2
