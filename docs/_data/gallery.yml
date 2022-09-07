@@ -1,17 +1,23 @@
 docs_list_title: gallery
 docs:
 
-- img: Pynq-z1.png
-  description: Small Description for the project
+- title: Project 1
+  img: Pynq-z1.png
+  desc: Small Description for the project
 
-- img: Pynq-z1.png
-  description: Small Description for the project
+- title: Project 2
+  img: Pynq-z1.png
+  desc: Small Description for the project
 
-- img: Pynq-z1.png
-  description: Small Description for the project
+- title: Project 3
+  img: Pynq-z1.png
+  desc: Small Description for the project
 
-- img: Pynq-z1.png
-  description: Small Description for the project
+- title: Project 4
+  img: Pynq-z1.png
+  desc: Small Description for the project
 
-- img: Pynq-z1.png
-  description: Small Description for the project
+- title: Project 5
+  img: Pynq-z1.png
+  desc: Small Description for the project
+

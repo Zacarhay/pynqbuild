@@ -4,11 +4,17 @@ layout: default
 
 ## Pynq embedded community projects
 
+<section id="portfolio">
+
 {% for item in site.data.gallery.docs %}
-<div class="gallery">
-    <a target="_blank" href="{{ item.img }}">
-    <img src="{{ item.img }}" alt="Cinque Terre" width="600" height="400">
-    </a>
-    <div class="desc">{{ item.description }}</div>
+<div class="project">
+    <img class="project__image" src="{{ item.img }}" />
+    <p>{{ item.title }}</p>
+    <h3 class="grid__title"> {{ item.desc }}</h3>
+    <div class="grid__overlay">
+    <button class="viewbutton">View More</button>
+    </div>
 </div>
 {% endfor %}
+
+</section>
