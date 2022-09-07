@@ -23,34 +23,62 @@
 </head>
 
 <body>
-  <div class="menu">
-    <div class="menu-table flex-row-space-between">
-      <div class="logo flex-row-center">
-        <a href="index.html">PYNQ</a>
+  <div class="navbar">
+ 
+    <!-- Navbar logo -->
+    <div class="nav-header">
+      <div class="nav-logo">
+        <a href="#">
+          <img src="logo.png" width="100px" alt="logo">
+        </a>
       </div>
-      <a class="menu-button" tabindex="0" href="javascript:void(0)">
-        <img src="img/menu.png">
-      </a>
-      <ul class="menu-items flex-row-center flex-item">
-        <a href="index.html"><button class="dropbtn">Home</button></a>
-        <a href="boards.html"><button class="dropbtn">Boards</button></a>
-        <a href="getting-started.html"><button class="dropbtn">Getting Started</button></a>
-        <a href="design.html"><button class="dropbtn"><a href="design.html">Design</button></a>
-        <a href="documentation.html"><button class="dropbtn">Documentation</button></a>
-        <div class="dropdown">
-          <button class="dropbtn">PYNQ Community</button>
-          <div class="dropdown-content">
-            <li class="dropbtn"><a href="emb_community_proj.html">Pynq embedded Community Projects</a></li>
-            <li class="dropbtn"><a href="pynq_community.html">PYNQ Alveo community projects and tutorials</a></li>
-            <li class="dropbtn"><a href="pynq_community.html">Machine learning on Xilinx FPGAs with FINN</a></li>
-            <li class="dropbtn"><a href="pynq_community.html">Tutorials and other resources</a></li>
-            <li class="dropbtn"><a href="pynq_community.html">Example Notebooks</a></li>
+    </div>
+ 
+    <!-- responsive navbar toggle button -->
+    <input type="checkbox" id="nav-check">
+    <div class="nav-btn">
+      <label for="nav-check">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+    </div>
+ 
+    <!-- Navbar items -->
+    <div class="nav-links">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+ 
+      <!-- Dropdown menu -->
+      <div class="dropdown">
+        <a class="dropBtn" href="#">Services
+          <i class="fas fa-angle-down"></i>
+        </a>
+        <div class="drop-content">
+          <a href="#">Web Design</a>
+          <a href="#">Marketing</a>
+          <a href="#">WordPress</a>
+ 
+          <!-- Creating sub menu Dropdown -->
+          <div class="dropdown2">
+            <a class="dropBtn2" href="#">More
+              <i class="fas fa-angle-right"></i>
+            </a>
+            <div class="drop-content2">
+              <a href="#">HTML</a>
+              <a href="#">CSS</a>
+              <a href="#">JavaScript</a>
+              <a href="#">jQuery</a>
+            </div>
           </div>
         </div>
-        <a href="source_code.html"><button class="dropbtn">Source Code</button></a>
-        <a href="https://discuss.pynq.io/"><button class="dropbtn">Support</button></a>
-      </ul>
+      </div>
+ 
+      <a href="#">Blogs</a>
+      <a href="#">Contact</a>
+      <button class="loginBtn">Login</button>
     </div>
+ 
   </div>
   <div class="content-container">
     <div class="banner" style="background: url('./images/dummy-background.jpeg') no-repeat center; background-size: cover; height: 400px;"></div>
