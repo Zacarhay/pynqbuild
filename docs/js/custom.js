@@ -4,9 +4,9 @@
  var modalInfo = {
   1: {
     title: "Project 1",
-    info: "...",
-    link: "#",
-    github: "#"
+    info: "blah blah blah",
+    link: "https://github.com/eclipse/xacc",
+    github: "https://github.com/eclipse/xacc"
   },
   2: {
     title: "Project 2",
