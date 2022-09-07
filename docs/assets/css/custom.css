@@ -34,6 +34,13 @@ form ion-icon{
   font-size: 35px;
   color: rgba(220, 53, 69, 0.5);
 }
+div.gallery{
+  margin: 0px;
+  border: none;
+  float: none;
+  width: 100%;
+  max-width: 300px;
+}
 .gallery {
   width: 100%;
   display: grid;
