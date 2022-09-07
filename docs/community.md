@@ -5,9 +5,8 @@ layout: gallery
 ## Pynq embedded community projects
 
 # V2 of Gallery
-
-<div class="gallery">
 {% for item in site.data.gallery.docs %}
+<div class="gallery">
   <div class="item">
     <a href="{{ item.href }}">
       <img src="{{ item.img }}" alt="">
@@ -15,8 +14,8 @@ layout: gallery
       <p>{{ item.desc }}</p>
     </a>
   </div>
-{% endfor %}
-</div>       
+</div>
+{% endfor %}      
 
 # V1 of gallery
 

@@ -2,6 +2,30 @@
  * Your custom CSS file
  *************************************************************************/
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+ }
+img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+form{
+  margin-top: 10px;
+  width: 80%;
+  max-width: 300px;
+}
+input{
+  border: none;
+  border-bottom: 2px solid rgba(220, 53, 69, 0.5);
+}
+
+
+
+ /*************************************/
+
 .custom-dropdown {
   width: 240px;
 }
