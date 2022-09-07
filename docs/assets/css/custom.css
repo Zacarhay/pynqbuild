@@ -17,11 +17,13 @@ form{
   width: 80%;
   max-width: 300px;
 }
-.srch{
+input[type="srch"] {
   border: none;
   border-bottom: 2px solid rgba(220, 53, 69, 0.5);
   margin-bottom: 10px;
-  font-size: 15px;
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: 700;
   outline: none;
   color: #fff;
   background-color: transparent;
