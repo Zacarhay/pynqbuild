@@ -468,7 +468,7 @@ textarea[readonly].custom-textbox {
   background-color: #000;
   min-width: 455px;
   z-index: 1000;
-  padding-top: 10px;
+  padding-top: 20px;
 }
 
 /* Links inside the dropdown */
@@ -499,7 +499,7 @@ textarea[readonly].custom-textbox {
   text-decoration: none;
   display: grid;
   font-size: 18px;
-  background-color: #000;
+  background-color: #1b1a1a;
   color: white;
   font-weight: 400 !important;
 }
