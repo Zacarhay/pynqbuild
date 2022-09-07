@@ -1002,7 +1002,7 @@ p-list {
    -moz-user-select: none;
    -ms-user-select: none;
    user-select: none;
-   box-shadow: 0 0px 4px rgb(0 0 0 / 32%), 0 0px 10px rgb(0 0 0 / 23%);
+   box-shadow: 0 0px 4px rgba(0, 0, 0, .3), 0 0px 10px rgba(0, 0, 0, .2);
  }
  
  .menu {
