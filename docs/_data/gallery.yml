@@ -6,17 +6,17 @@ docs:
   description: Small Description for the project
 
 - title: Project 2
-  img: ./assets/images/Pynq-z1.png
+  img: ./images/Pynq-z1.png
   description: Small Description for the project
 
 - title: Project 3
-  img: ./assets/images/Pynq-z1.png
+  img: ./images/Pynq-z1.png
   description: Small Description for the project
 
 - title: Project 4
-  img: ./assets/images/Pynq-z1.png
+  img: ./images/Pynq-z1.png
   description: Small Description for the project
 
 - title: Project 5
-  img: ./assets/images/Pynq-z1.png
+  img: ./images/Pynq-z1.png
   description: Small Description for the project
