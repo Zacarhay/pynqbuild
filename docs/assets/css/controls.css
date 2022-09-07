@@ -467,7 +467,7 @@ textarea[readonly].custom-textbox {
   position: absolute;
   background-color: #000;
   min-width: 455px;
-  z-index: 1;
+  z-index: 1000;
   padding-top: 10px;
 }
 
