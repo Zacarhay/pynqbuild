@@ -54,10 +54,6 @@
         <div class="flex-row">
           <div class="flex-item flex-column">
             <h2 class="add-top-margin-small">PYNQ Community Projects</h2>
-            <form>
-                <input type="searchbox" placeholder="Search Projects">
-                <ion-icon name="search-outline"></ion-icon>
-            </form>
           </div>
         </div>
       </div>
@@ -68,32 +64,6 @@
     </div>
   </div>
   <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
-  <script>
-
-    $('#searchbox').keypress(function(e) {
-        if (e.which == 13) {
-            var search_text = $('#searchbox').val();
-            var filteredData = {
-                images: data.images.filter(function(d)
-                {
-                    if (d.title.search(search_text) > -1
-                    ){
-                        return true;
-                    }
-                    if (d.title.search(search_text) > -1
-                    ){
-                        return true;
-                    }
-                    return false;
-                })
-            };
-            var html    = template(filteredData);
-
-            $('#content').html(html);
-        }
-    });
-
-  </script>
 </body>
 
 </html>
