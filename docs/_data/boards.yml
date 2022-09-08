@@ -1,0 +1,65 @@
+docs_list_title: boards
+docs:
+
+- img: 01_PYNQ-ZU.png
+  board: PYNQ-ZU
+  subhead: Xilinx Zynq UltraScale+ XCZU5EG-1SFVC784 MPSoC, Suitable for classroom teaching and advanced high-performance embedded projects
+  info:
+  url: https://www.tulembedded.com/FPGA/ProductsPYNQ-ZU.html
+
+- img: PYNQ-Z2.jpg
+  board: PYNQ-Z2
+  subhead: Xilinx ZYNQ XC7Z020-1CLG400C, Low-cost embedded platform for teaching and student projects
+  info:
+  url: https://www.tulembedded.com/FPGA/ProductsPYNQ-Z2.html
+
+- img: Pynq-z1.png
+  board: PYNQ-Z1
+  subhead: Xilinx Zynq-7000 ARM/FPGA SoC
+  info: 
+  url: https://digilent.com/shop/pynq-z1-python-productivity-for-zynq-7000-arm-fpga-soc/
+
+- img: kria.png
+  board: Kria KV260 Starter Kit
+  subhead: Xilinx Zynq® UltraScale+™ MPSoC
+  info:
+  url: https://www.xilinx.com/products/som/kria/kv260-vision-starter-kit.html
+
+- img: zcu104.jpg
+  board: ZCU104
+  subhead: Xilinx Zynq UltraScale+ XCZU7EV-2FFVC1156 MPSoC
+  info:
+  url: https://www.xilinx.com/products/boards-and-kits/zcu104.html
+
+- img: RFSOC.jpg
+  board: RFSoC 2x2
+  subhead: Xilinx Zynq UltraScale+ XCZU28DR  RFSoC
+  info:
+  url: https://www.xilinx.com/support/university/boards-portfolio/xup-boards/RFSoC2x2.html
+
+- img: zcu111.jpg
+  board: ZCU111
+  subhead: Xilinx Zynq® UltraScale+™ XCZU28DR-2FFVG1517E RFSoC
+  info:
+  url: https://www.xilinx.com/products/boards-and-kits/zcu111.html
+
+- img: ultra96-v2.jpg
+  board: Ultra96V2
+  subhead: Arm-based, Xilinx Zynq UltraScale+ MPSoC development board based on the Linaro 96Boards Consumer Edition specification
+  info: 
+  url: https://www.avnet.com/wps/portal/us/products/new-product-introductions/npi/aes-ultra96-v2/
+
+- img: tysom_3.jpg
+  board: TySOM-3-ZU7EV
+  subhead: Xilinx Zynq UltraScale+ ZU7EV-FFVC1156 MPSoC
+  info:
+  url: https://www.aldec.com/en/products/emulation/tysom_boards/zynq_ultrascale_mpsoc/tysom_3_zu7ev
+
+- img: TySOM-3A.jpg
+  board: TySOM-3A-ZU19EG
+  subhead: Xilinx Zynq Ultrascale+ ZU19EG-FFVB1517 MPSoC
+  info:  
+  url: https://www.aldec.com/en/products/emulation/tysom_boards/zynq_ultrascale_mpsoc/tysom_3a_zu19eg
+
+
+

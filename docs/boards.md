@@ -1,62 +1,81 @@
 ---
-layout: default
+layout: gallery
 ---
-<!-------------------------------------------------------------------------------------------->
-<!--Start Intro-->
-<div class="flex-row">
-  <div class="flex-item flex-column">
-    <h2>What is Pynq?</h2>
-    <hr>
-    <p class="text">
-      <img class="image image-wrap-text max-width-400" src="./images/Pynq-z1.png">
-      <zero-md src="./indexmd/Intro.md"></zero-md>
-    </p>
+# Pynq compatible boards
+
+See our collection of PYNQ boards!
+
+<div class="row">
+{% for item in site.data.boards.docs limit:2 %}
+<div class="column">
+  <div class="card" padding-bottom="20px">
+    <img class="cardimg" src="{{ site.urlimg }}{{ item.img }}" class="img-fluid" alt="{{ item.board }}">
+    <h1>{{ item.board }}</h1>
+    <p class="price">{{ item.subhead }}</p>
+    <p>{{ item.info }}</p>
+    <p><button onclick="location.href='{{ item.url }}';" target="_blank">See Vendor Website</button></p>
   </div>
 </div>
-<!--End Intro-->
-<!-------------------------------------------------------------------------------------------->
-<!--Start Who Only-->
-<div class="flex-row">
-  <div class="flex-item flex-column">
-    <h2> Who is PYNQ for?</h2>
-    <hr>
-    <p class="text">
-      <zero-md src="./indexmd/Who.md"></zero-md>
-    </p>
+{% endfor %}
+</div>
+
+<div class="row">
+{% for item in site.data.boards.docs offest:2 limit:1 %}
+<div class="column">
+  <div class="card" padding-bottom="20px">
+    <img class="cardimg" src="{{ site.urlimg }}{{ item.img }}" class="img-fluid" alt="{{ item.board }}">
+    <h1>{{ item.board }}</h1>
+    <p class="price">{{ item.subhead }}</p>
+    <p>{{ item.info }}</p>
+    <p><button onclick="location.href='{{ item.url }}';" target="_blank">See Vendor Website</button></p>
   </div>
 </div>
-<!--End Who-->
-<!-------------------------------------------------------------------------------------------->
-<!--Start Key Only-->
-<div class="flex-row">
-  <div class="flex-item flex-column full-width">
-    <h2>Key Technologies</h2>
-    <hr>
+{% endfor %}
+</div>
+
+<h2>Xilinx boards with PYNQ compatibility</h2>
+
+<div class="row">
+{% for item in site.data.boards.docs offset:3 limit:4 %}
+<div class="column">
+  <div class="card" padding-bottom="20px">
+    <img class="cardimg" src="{{ site.urlimg }}{{ item.img }}" class="img-fluid" alt="{{ item.board }}">
+    <h1>{{ item.board }}</h1>
+    <p class="price">{{ item.subhead }}</p>
+    <p>{{ item.info }}</p>
+    <p><button onclick="location.href='{{ item.url }}';" target="_blank">See Vendor Website</button></p>
   </div>
 </div>
-<div class="flex-row">
-  <div class="flex-item flex-item-stretch flex-column">
-    <img class="image max-width-400" src="./images/jupyter.png">
-  </div>
-  <div class="flex-item flex-item-stretch-4 flex-column">
-    <p class="text">
-      <a class="highlight-text" href="https://jupyter.org/">Jupyter Notebook</a><br>
-      <zero-md src="./indexmd/Key.md"></zero-md>
-    </p>
+{% endfor %}
+</div>
+
+<h2>Other PYNQ compatible boards</h2>
+
+<div class="row">
+{% for item in site.data.boards.docs offset:7 limit:2 %}
+<div class="column">
+  <div class="card" padding-bottom="20px">
+    <img class="cardimg" src="{{ site.urlimg }}{{ item.img }}" class="img-fluid" alt="{{ item.board }}">
+    <h1>{{ item.board }}</h1>
+    <p class="price">{{ item.subhead }}</p>
+    <p>{{ item.info }}</p>
+    <p><button onclick="location.href='{{ item.url }}';" target="_blank">See Vendor Website</button></p>
   </div>
 </div>
-<!--End List of Projects-->
-<div class="flex-row">
-  <div class="flex-item flex-column">
-    <h2>What Software do I need</h2>
-    <p class="text">
-      <zero-md src="./indexmd/What.md"></zero-md>
-    </p>
-    <h2>Get Involved</h2>
-    <p class="text">
-      <zero-md src="./indexmd/Get.md"></zero-md>
-    </p>
+{% endfor %}
+</div>
+
+<div class="row">
+{% for item in site.data.boards.docs offset:9 limit:1 %}
+<div class="column">
+  <div class="card" padding-bottom="20px">
+    <img class="cardimg" src="{{ site.urlimg }}{{ item.img }}" class="img-fluid" alt="{{ item.board }}">
+    <h1>{{ item.board }}</h1>
+    <p class="price">{{ item.subhead }}</p>
+    <p>{{ item.info }}</p>
+    <p><button onclick="location.href='{{ item.url }}';" target="_blank">See Vendor Website</button></p>
   </div>
 </div>
-<!--End Text Only-->
-<!-------------------------------------------------------------------------------------------->
+{% endfor %}
+</div>
+
