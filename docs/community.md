@@ -2,9 +2,9 @@
 layout: gallery
 ---
 
-## Pynq embedded community projects
 
-# V2 of Gallery
+
+# Pynq embedded community projects
 
 <div class="gallery">
 {% for item in site.data.gallery.docs %}

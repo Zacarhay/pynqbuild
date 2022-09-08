@@ -1,459 +1,94 @@
 /*************************************************************************
  * Your custom CSS file
  *************************************************************************/
- @media only screen and (min-width: 1200px){
-  .contentgal{
-    position: relative;
-      margin: 0 auto;
-      font-size: 16px;
-      font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-      font-weight: 300;
-      line-height: 1.5;
-      padding-left: 25%;
-      padding-right: 25%;
-      overflow-x: auto;
-  }
 
-  *{
-    margin: 0;
-    padding: 0;
-    box-sizing:border-box;
-  }
-  img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-  }
-  form{
-    margin-top: 10px;
-    width: 80%;
-    max-width: 300px;
-  }
-  input[type="srch"] {
-    border: none;
-    border-bottom: 2px solid rgba(220, 53, 69, 0.5);
-    margin-bottom: 10px;
-    padding-top: 10px;
-    font-size: 20px;
-    font-weight: 700;
-    outline: none;
-    color: #fff;
-    background-color: transparent;
-    width: 100%;
-  }
-  form ion-icon{
-    position: absolute;
-    font-size: 35px;
-    color: rgba(220, 53, 69, 0.5);
-  }
-  div.gallery{
-    margin: 0px;
-    border: none;
-    float: none;
-    width: 100%;
-  }
-  .gallery {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    margin-top: 50px;
-    grid-gap: 20px;
-  }
-  .item {
-    width: 100%;
-    position: relative;
-    height: 300px;
-    overflow: hidden;
-    border-radius: 8px;
-    transition: .3s ease box-shadow;
-  }
-  .item:hover{
-    box-shadow: 0px 0px 20px 3px #000;
-    border: none;
-  }
-  .item div[class="desc"]{
-    width: 100%;
-    margin-top: 40px;
-    position: absolute;
-    background-color: #000;
-    color: aliceblue;
-    padding: 10px;
-    bottom: -400px;
+.contentgal{
+  position: relative;
+    margin: 0 auto;
+    font-size: 16px;
+    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
     font-weight: 300;
-    transition: .3s ease-in-out bottom;
-    font-size: 20px;
-  }
-  .item:hover div[class="desc"]{
-    bottom: 0px;
-  }
-  .item h3{
-    color: aliceblue;
-    font-weight: 600;
-  }
+    line-height: 1.5;
+    padding-left: 25%;
+    padding-right: 25%;
+    overflow-x: auto;
 }
 
-@media only screen and (min-width: 1025px) and (max-width:1200px){
-  .contentgal{
-    position: relative;
-      margin: 0 auto;
-      font-size: 16px;
-      font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-      font-weight: 300;
-      line-height: 1.5;
-      padding-left: 25%;
-      padding-right: 25%;
-      overflow-x: auto;
-  }
-
-  *{
-    margin: 0;
-    padding: 0;
-    box-sizing:border-box;
-  }
-  img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-  }
-  form{
-    margin-top: 10px;
-    width: 80%;
-    max-width: 300px;
-  }
-  input[type="srch"] {
-    border: none;
-    border-bottom: 2px solid rgba(220, 53, 69, 0.5);
-    margin-bottom: 10px;
-    padding-top: 10px;
-    font-size: 20px;
-    font-weight: 700;
-    outline: none;
-    color: #fff;
-    background-color: transparent;
-    width: 100%;
-  }
-  form ion-icon{
-    position: absolute;
-    font-size: 35px;
-    color: rgba(220, 53, 69, 0.5);
-  }
-  div.gallery{
-    margin: 0px;
-    border: none;
-    float: none;
-    width: 100%;
-  }
-  .gallery {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    margin-top: 50px;
-    grid-gap: 20px;
-  }
-  .item {
-    width: 100%;
-    position: relative;
-    height: 300px;
-    overflow: hidden;
-    border-radius: 8px;
-    transition: .3s ease box-shadow;
-  }
-  .item:hover{
-    box-shadow: 0px 0px 20px 3px #000;
-    border: none;
-  }
-  .item div[class="desc"]{
-    width: 100%;
-    margin-top: 40px;
-    position: absolute;
-    background-color: #000;
-    color: aliceblue;
-    padding: 10px;
-    bottom: -400px;
-    font-weight: 300;
-    transition: .3s ease-in-out bottom;
-    font-size: 20px;
-  }
-  .item:hover div[class="desc"]{
-    bottom: 0px;
-  }
-  .item h3{
-    color: aliceblue;
-    font-weight: 600;
-  }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
 }
-
-@media only screen and (min-width: 769px) and (max-width:1024px){
-  .contentgal{
-    position: relative;
-      margin: 0 auto;
-      font-size: 16px;
-      font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-      font-weight: 300;
-      line-height: 1.5;
-      padding-left: 25%;
-      padding-right: 25%;
-      overflow-x: auto;
-  }
-
-  *{
-    margin: 0;
-    padding: 0;
-    box-sizing:border-box;
-  }
-  img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-  }
-  form{
-    margin-top: 10px;
-    width: 80%;
-    max-width: 300px;
-  }
-  input[type="srch"] {
-    border: none;
-    border-bottom: 2px solid rgba(220, 53, 69, 0.5);
-    margin-bottom: 10px;
-    padding-top: 10px;
-    font-size: 20px;
-    font-weight: 700;
-    outline: none;
-    color: #fff;
-    background-color: transparent;
-    width: 100%;
-  }
-  form ion-icon{
-    position: absolute;
-    font-size: 35px;
-    color: rgba(220, 53, 69, 0.5);
-  }
-  div.gallery{
-    margin: 0px;
-    border: none;
-    float: none;
-    width: 100%;
-  }
-  .gallery {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    margin-top: 50px;
-    grid-gap: 20px;
-  }
-  .item {
-    width: 100%;
-    position: relative;
-    height: 300px;
-    overflow: hidden;
-    border-radius: 8px;
-    transition: .3s ease box-shadow;
-  }
-  .item:hover{
-    box-shadow: 0px 0px 20px 3px #000;
-    border: none;
-  }
-  .item div[class="desc"]{
-    width: 100%;
-    margin-top: 40px;
-    position: absolute;
-    background-color: #000;
-    color: aliceblue;
-    padding: 10px;
-    bottom: -400px;
-    font-weight: 300;
-    transition: .3s ease-in-out bottom;
-    font-size: 20px;
-  }
-  .item:hover div[class="desc"]{
-    bottom: 0px;
-  }
-  .item h3{
-    color: aliceblue;
-    font-weight: 600;
-  }
+img{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }
-
-@media only screen and (min-width: 481px) and (max-width:768px){
-  .contentgal{
-    position: relative;
-      margin: 0 auto;
-      font-size: 16px;
-      font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-      font-weight: 300;
-      line-height: 1.5;
-      padding-left: 25%;
-      padding-right: 25%;
-      overflow-x: auto;
-  }
-
-  *{
-    margin: 0;
-    padding: 0;
-    box-sizing:border-box;
-  }
-  img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-  }
-  form{
-    margin-top: 10px;
-    width: 80%;
-    max-width: 300px;
-  }
-  input[type="srch"] {
-    border: none;
-    border-bottom: 2px solid rgba(220, 53, 69, 0.5);
-    margin-bottom: 10px;
-    padding-top: 10px;
-    font-size: 20px;
-    font-weight: 700;
-    outline: none;
-    color: #fff;
-    background-color: transparent;
-    width: 100%;
-  }
-  form ion-icon{
-    position: absolute;
-    font-size: 35px;
-    color: rgba(220, 53, 69, 0.5);
-  }
-  div.gallery{
-    margin: 0px;
-    border: none;
-    float: none;
-    width: 100%;
-  }
-  .gallery {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    margin-top: 50px;
-    grid-gap: 20px;
-  }
-  .item {
-    width: 100%;
-    position: relative;
-    height: 300px;
-    overflow: hidden;
-    border-radius: 8px;
-    transition: .3s ease box-shadow;
-  }
-  .item:hover{
-    box-shadow: 0px 0px 20px 3px #000;
-    border: none;
-  }
-  .item div[class="desc"]{
-    width: 100%;
-    margin-top: 40px;
-    position: absolute;
-    background-color: #000;
-    color: aliceblue;
-    padding: 10px;
-    bottom: -400px;
-    font-weight: 300;
-    transition: .3s ease-in-out bottom;
-    font-size: 20px;
-  }
-  .item:hover div[class="desc"]{
-    bottom: 0px;
-  }
-  .item h3{
-    color: aliceblue;
-    font-weight: 600;
-  }
+form{
+  margin-top: 10px;
+  width: 80%;
+  max-width: 300px;
 }
-
-@media only screen and (max-width:480px){
-  .contentgal{
-    position: relative;
-      margin: 0 auto;
-      font-size: 16px;
-      font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-      font-weight: 300;
-      line-height: 1.5;
-      padding-left: 25%;
-      padding-right: 25%;
-      overflow-x: auto;
-  }
-
-  *{
-    margin: 0;
-    padding: 0;
-    box-sizing:border-box;
-  }
-  img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-  }
-  form{
-    margin-top: 10px;
-    width: 80%;
-    max-width: 300px;
-  }
-  input[type="srch"] {
-    border: none;
-    border-bottom: 2px solid rgba(220, 53, 69, 0.5);
-    margin-bottom: 10px;
-    padding-top: 10px;
-    font-size: 20px;
-    font-weight: 700;
-    outline: none;
-    color: #fff;
-    background-color: transparent;
-    width: 100%;
-  }
-  form ion-icon{
-    position: absolute;
-    font-size: 35px;
-    color: rgba(220, 53, 69, 0.5);
-  }
-  div.gallery{
-    margin: 0px;
-    border: none;
-    float: none;
-    width: 100%;
-  }
-  .gallery {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    margin-top: 50px;
-    grid-gap: 20px;
-  }
-  .item {
-    width: 100%;
-    position: relative;
-    height: 300px;
-    overflow: hidden;
-    border-radius: 8px;
-    transition: .3s ease box-shadow;
-  }
-  .item:hover{
-    box-shadow: 0px 0px 20px 3px #000;
-    border: none;
-  }
-  .item div[class="desc"]{
-    width: 100%;
-    margin-top: 40px;
-    position: absolute;
-    background-color: #000;
-    color: aliceblue;
-    padding: 10px;
-    bottom: -400px;
-    font-weight: 300;
-    transition: .3s ease-in-out bottom;
-    font-size: 20px;
-  }
-  .item:hover div[class="desc"]{
-    bottom: 0px;
-  }
-  .item h3{
-    color: aliceblue;
-    font-weight: 600;
-  }
+input[type="srch"] {
+  border: none;
+  border-bottom: 2px solid rgba(220, 53, 69, 0.5);
+  margin-bottom: 10px;
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  outline: none;
+  color: #fff;
+  background-color: transparent;
+  width: 100%;
+}
+form ion-icon{
+  position: absolute;
+  font-size: 35px;
+  color: rgba(220, 53, 69, 0.5);
+}
+div.gallery{
+  margin: 0px;
+  border: none;
+  float: none;
+  width: 100%;
+}
+.gallery {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  margin-top: 50px;
+  grid-gap: 20px;
+}
+.item {
+  width: 100%;
+  position: relative;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 8px;
+  transition: .3s ease box-shadow;
+}
+.item:hover{
+  box-shadow: 0px 0px 20px 3px #000;
+  border: none;
+}
+.item div[class="desc"]{
+  width: 100%;
+  margin-top: 40px;
+  position: absolute;
+  background-color: #000;
+  color: aliceblue;
+  padding: 10px;
+  bottom: -400px;
+  font-weight: 300;
+  transition: .3s ease-in-out bottom;
+  font-size: 20px;
+}
+.item:hover div[class="desc"]{
+  bottom: 0px;
+}
+.item h3{
+  color: aliceblue;
+  font-weight: 600;
 }
 
 @media only screen and (min-width: 900px){
