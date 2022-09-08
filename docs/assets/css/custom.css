@@ -60,6 +60,20 @@ div.gallery{
   box-shadow: 0px 0px 20px 3px #00000042;
   border: none;
 }
+.item h3{
+  width: 100%;
+  padding: 20px;
+  position: absolute;
+  background-color: #00000042;
+  color: aliceblue;
+  bottom: -70px;
+  font-weight: 300;
+  transition: .5s ease-in-out bottom;
+  font-size: 20px;
+}
+.item:hover h3{
+  bottom: 0;
+}
 
 
  /*************************************/
