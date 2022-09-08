@@ -29,7 +29,7 @@ form{
   width: 80%;
   max-width: 300px;
 }
-input[type="srch"] {
+input[type="searchbox"] {
   border: none;
   border-bottom: 2px solid rgba(220, 53, 69, 0.5);
   margin-bottom: 10px;
