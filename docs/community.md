@@ -11,8 +11,10 @@ layout: gallery
   <div class="item">
     <a href="{{ item.url }}">
       <img src="{{ item.img }}" alt="">
-      <h3>{{ item.project }}</h3>
-      <p>{{ item.college }}</p>
+      <div class="desc">
+        <h3>{{ item.project }}</h3>
+        <p>{{ item.college }}</p>
+      </div>
     </a>
   </div>
   {% endfor %} 
