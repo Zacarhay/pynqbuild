@@ -162,9 +162,9 @@ hr {
 .content {
   position: relative;
   margin: 0 auto;
-  font-size: 16px;
+  font-size: 20px;
   font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-  font-weight: 300;
+  font-weight: 600;
   line-height: 1.5;
   max-width: 900px;
   overflow-x: auto;
