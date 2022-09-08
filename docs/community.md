@@ -12,7 +12,7 @@ layout: gallery
     <a href="{{ item.href }}">
       <img src="{{ item.img }}" alt="">
       <h3>{{ item.title }}</h3>
-      <p>{{ item.desc }}</p>
+      <p>{{ item.description }}</p>
     </a>
   </div>
   {% endfor %} 
