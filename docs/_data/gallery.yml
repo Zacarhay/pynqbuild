@@ -1,82 +1,249 @@
 docs_list_title: gallery
 docs:
 
-- title: Project 1
-  img: ./images/Pynq-z1.png
-  description: Small Description for the project
+- img: gal1.jpg
+  college: Strathclyde University
+  project: Support vector machines on PYNQ
+  url: https://github.com/RyanMan1/PYNQ-SVM-OpenHW-2020
 
-- title: Project 2
-  img: ./images/Pynq-z1.png
-  description: Small Description for the project
+- img: gal2.jpg
+  college: Politechnico di Milano
+  project: PYNQ Plaster - Abandoned object detection using map-reduce on multi-FPGA cluster
+  url: https://bitbucket.org/necst/xohw2020_plaster_public
 
-- title: Project 3
-  img: ./images/Pynq-z1.png
-  description: Small Description for the project
+- img: gal3.jpg
+  college: University of Zaragoza
+  project: Sensorial fusion via QNNs
+  url: https://github.com/eneriz-daniel/sensorialfusionQNNs
 
-- title: Project 4
-  img: ./images/Pynq-z1.png
-  description: Small Description for the project
+- img: gal8.jpg
+  college: Strathclyde University
+  project: Pypix - 3D scene reconstruction based on stereo vision
+  url: https://github.com/smpis/PyPix
 
-- title: Project 5
-  img: ./images/Pynq-z1.png
-  description: Small Description for the project
+- img: gal4.gif
+  college: Fred Kellerman
+  project: PYNQ fractal factory
+  url: https://github.com/FredKellerman/pynq-juliabrot
+  
+- img: gal5.png
+  college: XUP China Summer School
+  project: PYNQ Smart Lock
+  url: https://github.com/XilinxCannonFodderTeam/smart_lock
 
-- title: Project 1
-  img: ./images/Pynq-z1.png
-  description: Small Description for the project
+- img: gal6.png
+  college: XUP China Summer School
+  project: Defocus Image Deblurring
+  url: https://github.com/PaiPai121/Defocus-Image-Deblurring-Based-on-PYNQ
 
-- title: Project 2
-  img: ./images/Pynq-z1.png
-  description: Small Description for the project
+- img: gal9.png
+  college: XUP China Summer School
+  project: iSmart2 PYNQ Hardware
+  url: https://github.com/ZhangYuQAQ/Hardware-Acceleration-Circuit-Design-of-Object-Detection-Network-Based-on-FPGA
 
-- title: Project 3
-  img: ./images/Pynq-z1.png
-  description: Small Description for the project
+- img: gal10.png
+  college: XUP China Summer School
+  project: AES Encryption/Decryption
+  url: https://github.com/WilliamsCeng/02Hero
 
-- title: Project 4
-  img: ./images/Pynq-z1.png
-  description: Small Description for the project
+- img: gal13.png
+  college: Xilinx University Program
+  project: PYNQ respeaker
+  url: https://github.com/xupsh/pynq-respeaker
 
-- title: Project 5
-  img: ./images/Pynq-z1.png
-  description: Small Description for the project
+- img: gal14.png
+  college: Xilinx University Program China
+  project: PYNQ CV OV5640
+  url: https://github.com/xupsh/Pynq-CV-OV5640
 
-- title: Project 1
-  img: ./images/Pynq-z1.png
-  description: Small Description for the project
+- img: gal15.png
+  college: Xilinx University Program China
+  project: PYNQ Sense Hat
+  url: https://github.com/xupsh/pynq-sense-hat
 
-- title: Project 2
-  img: ./images/Pynq-z1.png
-  description: Small Description for the project
+- img: gal16.png
+  college: Jiangnan University, China
+  project: SNN Simulator on PYNQ Cluster
+  url: https://github.com/OpenHEC/SNN-simulator-on-PYNQcluster
 
-- title: Project 3
-  img: ./images/Pynq-z1.png
-  description: Small Description for the project
+- img: gal17.png
+  college: Southeast University, China
+  project: CC-Cam a PYNQ diffuser camera
+  url: https://github.com/Springbone/CC-Cam
 
-- title: Project 4
-  img: ./images/Pynq-z1.png
-  description: Small Description for the project
+- img: gal18.gif
+  college: University of Strathclyde
+  project: Open Source RFSoC Spectrum Analyzer
+  url: https://github.com/strath-sdr/rfsoc_sam
 
-- title: Project 5
-  img: ./images/Pynq-z1.png
-  description: Small Description for the project
+- img: gal19.gif
+  college: Mahan Bastani, Nolan Chang, Atsushi Domyo, Daniel Kizito
+  project: PYNQ S-Curve motion controller
+  url: https://github.com/Reconfigurable-Computing-CalPoly-Pomona/Motion-Controller
 
-- title: Project 1
-  img: ./images/Pynq-z1.png
-  description: Small Description for the project
+- img: gal20.png
+  college: Julian Bartolone
+  project: Ultra96 Facial Recognition Deadbolt Using PYNQ
+  url: https://www.hackster.io/julian-bartolone2/ultra96-facial-recognition-deadbolt-using-pynq-0fe8e9
 
-- title: Project 2
-  img: ./images/Pynq-z1.png
-  description: Small Description for the project
+- img: gal22.png
+  college: Giorgos Tzanos
+  project: Gaussian Naive Bayes NTUA
+  url: https://github.com/AcceleratedCloud/SDSoC/tree/master/Gaussian%20NaiveBayes
 
-- title: Project 3
-  img: ./images/Pynq-z1.png
-  description: Small Description for the project
+- img: gal23.gif
+  college: Rajeev Patwari, Nathalie Chan, King Choy
+  project: N-Particle Gravity Simulation on Ultra96
+  url: https://www.hackster.io/rajeev-patwari-ultra96-2019/ultra96-fpga-accelerated-parallel-n-particle-gravity-sim-87f45e
 
-- title: Project 4
-  img: ./images/Pynq-z1.png
-  description: Small Description for the project
+- img: gal24.png
+  college: University Strathclyde
+  project: PYNQ RFSoC - QPSK demo on ZCU111
+  url: https://github.com/strath-sdr/rfsoc_qpsk
 
-- title: Project 5
-  img: ./images/Pynq-z1.png
-  description: Small Description for the project
+- img: gal7.jpg
+  college: XUP China Summer School
+  project: Handwritten Mechanical Calculator
+  url: https://github.com/Microdent/Handwritten_Mathematical_Calculator_on_FPGA
+
+- img: gal11.png
+  college: Southeast University, China; Xilinx China
+  project: PYNQ ORB feature extractor
+  url: https://github.com/Siudya/ORB_FPGA
+
+- img: result.gif
+  college: PYNQ gesture recognition
+  project: University of Science and Technology Beijing, Xilinx China
+  url: https://github.com/linxiaobo110/rps_u96
+
+- img: gal21.gif
+  college: Adam Taylor
+  project: PYNQ Controlled NeoPixel LED Cube
+  url: https://www.hackster.io/adam-taylor/pynq-controlled-neopixel-led-cube-92a1c1
+
+- img: 2p1.png
+  college: BYUt
+  project: Partial reconfiguration Input/Outpu - PYNQ-PRIO
+  url: https://github.com/byuccl/PYNQ-PRIO
+
+- img: 2p2.png
+  college: Hardware accelerated image resizer example
+  project: PYNQ Hello World
+  url: https://github.com/Xilinx/PYNQ-HelloWorld
+
+- img: 2p3.png
+  college: UCSD
+  project: RISC-V on PYNQ
+  url: https://github.com/drichmond/RISC-V-On-PYNQ
+
+- img: 2p4.png
+  college: University Sydney
+  project: Extended Kalman filter
+  url: https://github.com/sfox14/pynq-ekf
+
+- img: 2p5.png
+  college: ETH Zurich
+  project: FPGA-based neural network inference project - SpoonNN
+  url: https://github.com/fpgasystems/spooNN
+
+- img: 2p6.png
+  college: FPGA-based neural network inference for DAC 2018 contest
+  project: iSmart DNN
+  url: https://github.com/onioncc/iSmartDNN
+
+- img: 2p7.png
+  college: FPGA-based neural network inference for DAC 2018 contest
+  project: TGIIF
+  url: https://github.com/hirayaku/DAC2018-TGIIF
+
+- img: 2p8.png
+  college: Accelerated OpenCV image filtering library
+  project: cv2PYNQ FAU
+  url: https://github.com/wbrueckner/cv2pynq
+
+- img: 2p9.png
+  college: KU Leuven
+  project: Hardware accelerated video processing - Video Processing
+  url: https://github.com/Pieter-Berteloot/PYNQ_Projects
+
+- img: 2p10.jpg
+  college: ETH Zurich
+  project: Hardware accelerated compression - ZipML-PYNQ
+  url: https://github.com/fpgasystems/ZipML-PYNQ
+
+- img: 2p11.png
+  college: IT Tallaght
+  project: Control of robotic car from PYNQ - PYNQ bot
+  url: https://github.com/Xilinx/PYNQ-BOT
+
+- img: 2p12.png
+  college: Fudan University, Xilinx China
+  project: PYNQ LED cube controller - PYNQ LED cube
+  url: https://github.com/sonnyhcl/PYNQ-Light-Cube
+
+- img: 2p13.png
+  college: Xilinx ISM, Trenz electronics
+  project: Industrial motor control - SPYN
+  url: https://github.com/Xilinx/IIoT-SPYN
+
+- img: 2p14.png
+  college: Xilinx labs
+  project: Overlay with network analysis capability - PYNQ networking
+  url: https://github.com/Xilinx/PYNQ-Networking
+
+- img: 2p15.png
+  college: Xilinx labs
+  project: Qunatised neural networks - QNN
+  url: https://github.com/Xilinx/QNN-MO-PYNQ
+
+- img: 2p16.png
+  college: TU Kaiserslautern
+  project: Quantized LSTM on PYNQ - LTSM
+  url: https://github.com/tukl-msd/LSTM-PYNQ
+
+- img: 2p17.png
+  college: NTNU, University Sydney, Xilinx labs
+  project: Binarise neural network - BNN
+  url: https://github.com/Xilinx/BNN-PYNQ/
+
+- img: 2p18.png
+  college: BYU
+  project: Video filtering with partial reconfiguration - Video filters with PR
+  url: https://github.com/AEW2015/PYNQ_PR_Overlay
+
+- img: 2p19.png
+  college: Xilinx labs
+  project: Build a viseon processing pipeline from xfOpenCV - PYNQ computer viseon
+  url: https://github.com/Xilinx/PYNQ-ComputerVision
+
+- img: 2p20.png
+  college: University Bucharest
+  project: GZip compression with DEFLATE-compatible data, and fixed Huffman coding - GZip on PYNQ
+  url: https://gitlab.dcae.pub.ro/research/PynqGzip
+
+- img: 2p21.jpg
+  college: NUTA
+  project: Apache Spark on PYNQ - SPynq
+  url: https://github.com/AcceleratedCloud/SPynq
+
+- img: 2p22.png
+  college: CU Boulder
+  project: FIR filter example - FIR filter example
+  url: https://github.com/hackwa/pynqfire/blob/master/notebooks/fir.ipynb
+
+- img: 2p23.png
+  college: Imperial College London
+  project: CNN on PYNQ
+  url: https://github.com/awai54st/PYNQ-Classification
+
+- img: 2p24.png
+  college: HMI Video Processing 
+  project: VectorBlox
+  url: https://github.com/VectorBlox/PYNQ
+
+- img: 2p25.jpg
+  college: Ruhr University Bochum
+  project: Soft GPU on PYNQ - Soft GPU
+  url: https://github.com/malkadi/FGPU_IPython/
+
+

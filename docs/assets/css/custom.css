@@ -83,11 +83,11 @@ div.gallery{
   font-size: 20px;
 }
 .item:hover h3{
-  bottom: 0;
+  bottom: 200px;
 }
 .item p{
   width: 100%;
-  padding: 20px;
+  margin-top: 40px;
   position: absolute;
   background-color: #00000042;
   color: aliceblue;
@@ -97,7 +97,7 @@ div.gallery{
   font-size: 20px;
 }
 .item:hover p{
-  bottom: 0;
+  bottom: 171px;
 }
 
 @media only screen and (min-width: 900px){

@@ -9,10 +9,10 @@ layout: gallery
 <div class="gallery">
 {% for item in site.data.gallery.docs %}
   <div class="item">
-    <a href="{{ item.href }}">
+    <a href="{{ item.url }}">
       <img src="{{ item.img }}" alt="">
-      <h3>{{ item.title }}</h3>
-      <p>{{ item.description }}</p>
+      <h3>{{ item.project }}</h3>
+      <p>{{ item.college }}</p>
     </a>
   </div>
   {% endfor %} 
