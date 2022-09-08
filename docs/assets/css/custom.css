@@ -85,6 +85,21 @@ div.gallery{
 .item:hover h3{
   bottom: 0;
 }
+.item p{
+  width: 100%;
+  padding: 20px;
+  position: absolute;
+  background-color: #00000042;
+  color: aliceblue;
+  bottom: -70px;
+  font-weight: 300;
+  transition: .5s ease-in-out bottom;
+  font-size: 20px;
+}
+.item:hover p{
+  bottom: 0;
+}
+
 @media only screen and (min-width: 900px){
   .container{
     max-width: 1160px;
