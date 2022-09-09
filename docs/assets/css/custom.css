@@ -246,3 +246,17 @@ div.markdown-body p {
   display: none;
   color: #007bff;
 }
+
+table.boards  {
+  width:100%; background-color: white; border: 1px solid pink; border-collapse: collapse;
+}
+table.boards, 
+table.boards th,
+table.boards td {
+  border: 1px solid pink;
+  color: black;
+  padding: 5px;
+}
+table.boards th{
+  text-align: left;
+}
