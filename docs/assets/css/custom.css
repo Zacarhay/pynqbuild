@@ -289,3 +289,13 @@ a.bigbutton:hover {
   background-color: rgba(230, 51, 128, .75);
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
 }
+
+a{
+  color: rgba(230, 51, 128, .75);
+  text-decoration: none;
+}
+
+a:hover{
+  color: rgba(230, 51, 128, 1);
+  text-decoration: underline;
+}
