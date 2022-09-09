@@ -11,7 +11,7 @@ layout: default
     <h2> Development Boards</h2>
     <hr>
     <p class="text">
-      <zero-md src="./MD/indexmd/devboards.md"></zero-md>
+      <zero-md src="./MD/getstartmd/devboards.md"></zero-md>
     </p>
   </div>
 </div>
