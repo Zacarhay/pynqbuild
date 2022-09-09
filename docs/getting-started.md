@@ -9,8 +9,8 @@ layout: default
     </p>
     <hr>
     <p class="text">
-      <img class="image image-wrap-text max-width-400" src="./images/PYNQ-Z2.png">
-      <zero-md src="./MD/indexmd/Intro.md"></zero-md>
+      <img class="image image-wrap-text max-width-400" src="./images/PYNQ-Z2.jpg">
+      <zero-md src="./MD/getstartmd/recboard.md"></zero-md>
     </p>
   </div>
 </div>
