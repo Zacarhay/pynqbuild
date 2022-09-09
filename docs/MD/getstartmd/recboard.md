@@ -8,7 +8,7 @@
     <tr><td>Audio</td><td>ADAU1761 codec with HP + Mic, Line in</td></tr>
     <tr><td>Network</td><td>10/100/1000 Ethernet</td></tr>
     <tr><td>Expansion</td><td>USB host (PS)</td></tr>
-    <tr><td>GPIO</td><td>1x Arduino Header</td></tr>
+    <tr><td>GPIO</td><td class="nobot">1x Arduino Header</td></tr>
     <tr><td></td><td>2x Pmod*</td></tr>
     <tr><td></td><td>1x RaspberryPi header*</td></tr>
     <tr><td>Other I/O</td><td>6x user LEDs</td></tr>

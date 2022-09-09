@@ -260,3 +260,7 @@ table.boards td {
 table.boards th{
   text-align: left;
 }
+
+.nobot{
+  border-bottom: none;
+}
