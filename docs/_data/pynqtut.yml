@@ -1,52 +1,52 @@
 docs_list_title: pynqtut
 docs:
 
-- img: tr1.png
+- img: images/tr1.png
   project: PYNQ Tutorial workshop
   url: https://github.com/Xilinx/PYNQ_Workshop
   subtitle: 
 
-- img: tr2.png
+- img: images/tr2.png
   project: HLS filter example
   url: http://www.fpgadeveloper.com/2018/03/create-a-custom-pynq-overlay-for-pynq-z1.html
   subtitle: (FPGA Developer)
 
-- img: tr3.png
+- img: images/tr3.png
   project: PYNQ HLS Tutorial
   url: https://github.com/drichmond/PYNQ-HLS
   subtitle: (Dustin Richmond)
   
-- img: tr4.png
+- img: images/tr4.png
   project: Accelerate FIR function
   url: http://www.fpgadeveloper.com/2018/03/how-to-accelerate-a-python-function-with-pynq.html
   subtitle: (FPGA Developer)
 
-- img: tr5.png
+- img: images/tr5.png
   project: Control custom IP using GPIO
   url: https://www.youtube.com/watch?v=UBsCNPWudww
   subtitle:
 
-- img: tr6.png
+- img: images/tr6.png
   project: Add existing IP to a PYNQ overlay
   url: https://www.youtube.com/watch?v=LomArt-hi4M
   subtitle:
 
-- img: tr7.png
+- img: images/tr7.png
   project: PYNQ RFSoC tutorial workshop
   url: https://github.com/Xilinx/PYNQ_RFSOC_Workshop
   subtitle: 
   
-- img: tr8.png
+- img: images/tr8.png
   project: PYNQ bootcamp (High school level)
   url: https://github.com/Xilinx/PYNQ_Bootcamp/
   subtitle: 
 
-- img: tr9.png
+- img: images/tr9.png
   project: Zynq, and Alveo video tutorials for PYNQ
   url: https://github.com/MakarenaLabs/Xilinx-FPGA-HLS-PYNQ-ALVEO-Flow
   subtitle: 
 
-- img: tr10.png
+- img: images/tr10.png
   project: Parallel Programming for FPGAs, PYNQ Projects and Labs
   url: https://pp4fpgas.readthedocs.io/
   subtitle: (Ryan Kastner, UCSD)
