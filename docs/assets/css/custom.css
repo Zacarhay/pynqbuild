@@ -189,7 +189,8 @@ div.markdown-body p {
 }
 
 .img-fluid{
-  max-width: 100%;
+  max-width: 600px;
+  max-height: 450px;
   height: auto;
   padding-left: 30px;
   padding-top: 10px
