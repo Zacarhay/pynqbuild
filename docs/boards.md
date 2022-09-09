@@ -17,7 +17,7 @@ layout: boards
 <!--Start Key Only-->
 <div class="flex-row">
 {% for item in site.data.boards.docs limit:2 %}
-  <div class="flex-column">
+  <a href="javascript:void(0)" class="flex-column">
     <div class="card" padding-bottom="20px">
       <div class="imagecontainer">
         <img class="card-img" src="{{ site.urlimg }}{{ item.img }}" class="img-fluid" alt="{{ item.board }}">
@@ -27,7 +27,7 @@ layout: boards
       <p>{{ item.info }}</p>
       <p><button onclick="location.href='{{ item.url }}';" target="_blank">See Vendor Website</button></p>
     </div>
-  </div>
+  </a>
 {% endfor %}
 </div>
 <!--End Who-->
@@ -35,7 +35,7 @@ layout: boards
 <!--Start Key Only-->
 <div class="flex-row">
 {% for item in site.data.boards.docs offest:2 limit:1 %}
-  <div class="flex-column">
+  <a href="javascript:void(0)" class="flex-column">
     <div class="card" padding-bottom="20px">
       <div class="imagecontainer">
         <img class="card-img" src="{{ site.urlimg }}{{ item.img }}" class="img-fluid" alt="{{ item.board }}">
@@ -45,7 +45,7 @@ layout: boards
       <p>{{ item.info }}</p>
       <p><button onclick="location.href='{{ item.url }}';" target="_blank">See Vendor Website</button></p>
     </div>
-  </div>
+  </a>
 {% endfor %}
 </div>
 <!--End Who-->
@@ -56,7 +56,7 @@ layout: boards
 
 <div class="flex-row">
 {% for item in site.data.boards.docs offset:3 limit:4 %}
-  <div class="flex-column">
+  <a href="javascript:void(0)" class="flex-column">
     <div class="card" padding-bottom="20px">
       <div class="imagecontainer">
         <img class="card-img" src="{{ site.urlimg }}{{ item.img }}" class="img-fluid" alt="{{ item.board }}">
@@ -66,7 +66,7 @@ layout: boards
       <p>{{ item.info }}</p>
       <p><button onclick="location.href='{{ item.url }}';" target="_blank">See Vendor Website</button></p>
     </div>
-  </div>
+  </a>
 {% endfor %}
 </div>
 <!--End Who-->
@@ -77,7 +77,7 @@ layout: boards
 
 <div class="flex-row">
 {% for item in site.data.boards.docs offset:7 limit:2 %}
-  <div class="flex-column">
+  <a href="javascript:void(0)" class="flex-column">
     <div class="card" padding-bottom="20px">
       <div class="imagecontainer">
         <img class="card-img" src="{{ site.urlimg }}{{ item.img }}" class="img-fluid" alt="{{ item.board }}">
@@ -87,7 +87,7 @@ layout: boards
       <p>{{ item.info }}</p>
       <p><button onclick="location.href='{{ item.url }}';" target="_blank">See Vendor Website</button></p>
     </div>
-  </div>
+  </a>
 {% endfor %}
 </div>
 <!--End Who-->
@@ -95,7 +95,7 @@ layout: boards
 <!--Start Key Only-->
 <div class="flex-row">
 {% for item in site.data.boards.docs offset:9 limit:1 %}
-  <div class="flex-column">
+  <a href="javascript:void(0)" class="flex-column">
     <div class="card" padding-bottom="20px">
       <div class="imagecontainer">
         <img class="card-img" src="{{ site.urlimg }}{{ item.img }}" class="img-fluid" alt="{{ item.board }}">
@@ -105,7 +105,7 @@ layout: boards
       <p>{{ item.info }}</p>
       <p><button onclick="location.href='{{ item.url }}';" target="_blank">See Vendor Website</button></p>
     </div>
-  </div>
+  </a>
 {% endfor %}
 </div>
 
