@@ -15,7 +15,7 @@ See the <a href="https://pynq.readthedocs.io/en/latest/getting_started/alveo_get
 <p class="textgs">
 If you have a Zynq board, you need a PYNQ SD card image to get started. You can download a pre-compiled PYNQ image from the table below. If an image is not available for your board, you can build your own SD card image (see details below).
 </p>
-<center><table>
+<center><table class="markdown-body">
 <tbody><tr><th>Board</th><th>SD card image</th><th>Documentation</th></tr>
   <tr>
   <td>PYNQ-Z2</td>
@@ -83,8 +83,8 @@ If you have a Zynq board, you need a PYNQ SD card image to get started. You can 
 <p class="textgs">
 See the <a href="https://pynq.readthedocs.io/en/latest/pynq_sd_card.html">PYNQ image build guide</a> or details on building the PYNQ image. 
 The following rootfs files can be used for rebuilding an image for a custom board:
-  <li><a href="https://bit.ly/pynq_aarch64_2_7">PYNQ rootfs aarch64 v2.7</a></li>
-  <li><a href="https://bit.ly/pynq_arm_2_7">PYNQ rootfs arm v2.7</a></li>
+  <li><a class="textgs" href="https://bit.ly/pynq_aarch64_2_7">PYNQ rootfs aarch64 v2.7</a></li>
+  <li><a class="textgs" href="https://bit.ly/pynq_arm_2_7">PYNQ rootfs arm v2.7</a></li>
 </p>
 
 <!--Start Intro-->
