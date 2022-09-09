@@ -1,19 +1,8 @@
 ---
-layout: gallery
+layout: boards
 ---
 
-<!-------------------------------------------------------------------------------------------->
-<!--Start Who Only-->
-<div class="flex-row">
-  <div class="flex-item flex-column">
-    <h2>Pynq compatible boards</h2>
-    <hr>
-    <p class="text">
-      <zero-md src="./MD/board.md"></zero-md>
-    </p>
-  </div>
-</div>
-
+<br>
 <div class="row">
 {% for item in site.data.boards.docs limit:2 %}
 <div class="column">
