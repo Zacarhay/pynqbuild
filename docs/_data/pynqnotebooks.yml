@@ -1,0 +1,51 @@
+docs_list_title: exnote
+docs:
+
+
+- img: n1.jpg
+  project: ADC Waveforms
+  url: https://github.com/Xilinx/PYNQ/blob/v2.0/boards/Pynq-Z1/base/notebooks/pmod/pmod_adc.ipynb
+
+- img: n2.jpg
+  project: DAC ADC Example
+  url: https://github.com/Xilinx/PYNQ/blob/v2.0/boards/Pynq-Z1/base/notebooks/pmod/pmod_dac_adc.ipynb
+
+- img: n3.jpg
+  project: Downloading Overlays
+  url: https://github.com/Xilinx/PYNQ/blob/v2.0/pynq/notebooks/common/overlay_download.ipynb
+
+- img: n4.jpg
+  project: Grove ADC
+  url: https://github.com/Xilinx/PYNQ/blob/v2.0/boards/Pynq-Z1/base/notebooks/pmod/pmod_grove_adc.ipynb
+
+- img: n5.jpg
+  project: Arduino Analog Example
+  url: https://github.com/Xilinx/PYNQ/tree/v1.4/Pynq-Z1/notebooks/examples/arduino_analog.ipynb
+
+- img: n6.jpg
+  project: OpenCV Software Filters
+  url: https://github.com/Xilinx/PYNQ/tree/v1.4/Pynq-Z1/notebooks/examples/opencv_filters_webcam.ipynb
+
+- img: n7.jpg
+  project: Grove LED Bar
+  url: https://github.com/Xilinx/PYNQ/blob/v2.0/boards/Pynq-Z1/base/notebooks/arduino/arduino_grove_ledbar.ipynb
+
+- img: n8.jpg
+  project: OpenCV Face Detection
+  url: https://github.com/Xilinx/PYNQ/blob/v2.0/boards/Pynq-Z1/base/notebooks/video/opencv_face_detect_hdmi.ipynb
+
+- img: n9.jpg
+  project: PYNQ Audio
+  url: https://github.com/Xilinx/PYNQ/blob/v2.0/boards/Pynq-Z1/base/notebooks/audio/audio_playback.ipynb
+
+- img: n10.jpg
+  project: USB Webcam
+  url: https://github.com/Xilinx/PYNQ/blob/v2.0/pynq/notebooks/common/usb_webcam.ipynb
+
+- img: n11.jpg
+  project: Shell Commands
+  url: https://github.com/Xilinx/PYNQ/blob/v2.0/boards/Pynq-Z1/base/notebooks/pmod/pmod_grove_tmp.ipynb
+
+- img: n12.jpg
+  project: USB Wifi
+  url: https://github.com/Xilinx/PYNQ/blob/v2.0/pynq/notebooks/common/usb_wifi.ipynb

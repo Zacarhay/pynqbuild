@@ -7,7 +7,7 @@ layout: gallery
 # Pynq embedded community projects
 
 <div class="gallery">
-{% for item in site.data.gallery.docs %}
+{% for item in site.data.pynqcommunity.docs %}
   <div class="item">
     <a href="{{ item.url }}">
       <img src="{{ item.img }}" alt="">

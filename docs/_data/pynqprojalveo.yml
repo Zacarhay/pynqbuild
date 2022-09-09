@@ -1,0 +1,18 @@
+docs_list_title: pynqprojalveo
+docs:
+  
+- img: alv1.png
+  project: Introduction to PYNQ with Alveo
+  url: https://github.com/Xilinx/Alveo-PYNQ
+
+- img: alv2.png
+  project: Vitis acceleration library - Data Compression example
+  url: https://github.com/Xilinx/Alveo-PYNQ/tree/master/pynq_alveo_examples/notebooks/data_compression
+
+- img: alv3.png
+  project: 5-Point Relative Pose Problem
+  url: https://github.com/Xilinx/5point-PYNQ
+
+- img: alv4.png
+  project: ResNet50 Image classification with FINN
+  url: https://github.com/Xilinx/ResNet50-PYNQ/
