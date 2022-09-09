@@ -290,20 +290,18 @@ a.bigbutton:hover {
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%) !important;
 }
 
-a{
-  color: rgba(230, 51, 128, .75) !important;
-  text-decoration: none !important;
-}
-
-a:hover{
-  color: rgba(230, 51, 128, 1) !important;
-  text-decoration: underline !important;
-}
-
 a.nav{
   color: white !important;
 }
 
 a.nav:hover{
   color: white !important; 
+}
+
+a.markdown-body{
+  color: rgba(230, 51, 128, .75) !important;
+}
+
+a.markdown-body:hover{
+  color: rgba(230, 51, 128, 1) !important;
 }
