@@ -291,11 +291,19 @@ a.bigbutton:hover {
 }
 
 a{
-  color: rgba(230, 51, 128, .75) !important;
-  text-decoration: none !important;
+  color: rgba(230, 51, 128, .75);
+  text-decoration: none;
 }
 
 a:hover{
-  color: rgba(230, 51, 128, 1) !important;
-  text-decoration: underline !important;
+  color: rgba(230, 51, 128, 1);
+  text-decoration: underline;
+}
+
+a.nav{
+  color: white;
+}
+
+a.nav:hover{
+  color: white;
 }

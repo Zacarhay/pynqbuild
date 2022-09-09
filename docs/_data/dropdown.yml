@@ -1,0 +1,11 @@
+docs_list_title: dropdown
+docs:
+
+- name: Pynq embedded Community Projects
+  href: community.html
+
+- name: PYNQ Alveo community projects and FINN
+  href: pynq-project-alveo.html
+
+- name: PYNQ Tutorials and Notebooks
+  href: pynq-tutorials.html
