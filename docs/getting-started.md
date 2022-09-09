@@ -23,7 +23,9 @@ layout: default
     <h3> Downloadable PYNQ images</h3>
     <hr>
     <p class="text">
+      <center>
       <zero-md src="./MD/getstartmd/pynqimg.md"></zero-md>
+      </center>
     </p>
   </div>
 </div>
