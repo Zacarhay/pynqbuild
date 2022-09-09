@@ -1,7 +1,6 @@
 ---
 layout: gallery
 ---
-
 <!-------------------------------------------------------------------------------------------->
 <!--Start Who Only-->
 <div class="flex-row">
@@ -13,10 +12,13 @@ layout: gallery
     </p>
   </div>
 </div>
-
+<!--End Who-->
+<!-------------------------------------------------------------------------------------------->
+<!--Start Key Only-->
 <div class="flex-row">
+<div class="flex-item flex-column">
 {% for item in site.data.boards.docs limit:2 %}
-  <div class="flex-item flex-column">
+  <div class="flex-column">
     <div class="card" padding-bottom="20px">
       <div class="imagecontainer">
         <img class="card-img" src="{{ site.urlimg }}{{ item.img }}" class="img-fluid" alt="{{ item.board }}">
@@ -29,10 +31,14 @@ layout: gallery
   </div>
 {% endfor %}
 </div>
-
+</div>
+<!--End Who-->
+<!-------------------------------------------------------------------------------------------->
+<!--Start Key Only-->
 <div class="flex-row">
+<div class="flex-item flex-column">
 {% for item in site.data.boards.docs offest:2 limit:1 %}
-  <div class="flex-item flex-column">
+  <div class="flex-column">
     <div class="card" padding-bottom="20px">
       <div class="imagecontainer">
         <img class="card-img" src="{{ site.urlimg }}{{ item.img }}" class="img-fluid" alt="{{ item.board }}">
@@ -45,13 +51,17 @@ layout: gallery
   </div>
 {% endfor %}
 </div>
-
+</div>
+<!--End Who-->
+<!-------------------------------------------------------------------------------------------->
+<!--Start Key Only-->
 <h2>Xilinx boards with PYNQ compatibility</h2>
 <hr>
 
 <div class="flex-row">
+<div class="flex-item flex-column">
 {% for item in site.data.boards.docs offset:3 limit:4 %}
-  <div class="flex-item flex-column">
+  <div class="flex-column">
     <div class="card" padding-bottom="20px">
       <div class="imagecontainer">
         <img class="card-img" src="{{ site.urlimg }}{{ item.img }}" class="img-fluid" alt="{{ item.board }}">
@@ -64,13 +74,17 @@ layout: gallery
   </div>
 {% endfor %}
 </div>
-
+</div>
+<!--End Who-->
+<!-------------------------------------------------------------------------------------------->
+<!--Start Key Only-->
 <h2>Other PYNQ compatible boards</h2>
 <hr>
 
 <div class="flex-row">
+<div class="flex-item flex-column">
 {% for item in site.data.boards.docs offset:7 limit:2 %}
-  <div class="flex-item flex-column">
+  <div class="flex-column">
     <div class="card" padding-bottom="20px">
       <div class="imagecontainer">
         <img class="card-img" src="{{ site.urlimg }}{{ item.img }}" class="img-fluid" alt="{{ item.board }}">
@@ -83,10 +97,14 @@ layout: gallery
   </div>
 {% endfor %}
 </div>
-
+</div>
+<!--End Who-->
+<!-------------------------------------------------------------------------------------------->
+<!--Start Key Only-->
 <div class="flex-row">
+<div class="flex-item flex-column">
 {% for item in site.data.boards.docs offset:9 limit:1 %}
-  <div class="flex-item flex-column">
+  <div class="flex-column">
     <div class="card" padding-bottom="20px">
       <div class="imagecontainer">
         <img class="card-img" src="{{ site.urlimg }}{{ item.img }}" class="img-fluid" alt="{{ item.board }}">
@@ -98,5 +116,6 @@ layout: gallery
     </div>
   </div>
 {% endfor %}
+</div>
 </div>
 
