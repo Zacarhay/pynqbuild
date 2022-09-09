@@ -270,3 +270,15 @@ p.textgs {
   padding: 8px;
   font-weight: 500;
 }
+
+.bigbutton {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #e63380;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}

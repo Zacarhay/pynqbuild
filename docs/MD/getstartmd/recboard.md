@@ -19,6 +19,6 @@
   </tbody>
 </table>
 <br>
-<p style="font-size:small; color:black; text-align: right; padding-right: 10px">
+<p style="font-size:small; color:black; text-align: right; padding-right: 50px">
 *PYNQ-Z2 RaspberryPi header shares 8 pins with 1 Pmod
 </p>

@@ -1,6 +1,9 @@
 ---
 layout: default
 ---
+
+<div style="padding-top:30px" width="100%"><center><a href="https://pynq.readthedocs.io/en/latest/getting_started.html" class="bigbutton" style="width: 100% !important">Board Setup</a></center></div>
+
 <!--Start Intro-->
 <div class="flex-row">
   <div class="flex-item flex-column">
