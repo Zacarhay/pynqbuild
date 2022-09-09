@@ -1,0 +1,11 @@
+docs_list_title: nav
+docs:
+
+- name: Home
+  href: index.html
+
+- name: Boards
+  href: boards.html
+
+- name: Getting started
+  href: getting-started.html
