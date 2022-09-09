@@ -4,14 +4,15 @@ layout: default
 
 <div style="padding-top:10px" width="100%"><center><a href="https://pynq.readthedocs.io/en/latest/getting_started.html" class="bigbutton" style="width: 100% !important">Board Setup</a></center></div>
 
-## Development Boards
-
+<h2>Development Boards</h2>
+<p class="textgs">
 PYNQ supports Zynq based boards (Zynq, Zynq Ultrascale+, Zynq RFSoC), <a href="https://www.xilinx.com/products/som/kria.html">Kria SOMs</a>, <a href="https://www.xilinx.com/products/boards-and-kits/alveo.html">Xilinx Alveo</a> accelerator boards and <a href="https://aws.amazon.com/ec2/instance-types/f1/">AWS-F1</a> instances.
 
 See the <a href="https://pynq.readthedocs.io/en/latest/getting_started/alveo_getting_started.html">PYNQ Alveo Getting Started guide</a> for details on installing PYNQ for use with Alveo and AWS-F1. 
+</p>
 
-## Downloadable PYNQ Images
-
+<h2>Downloadable PYNQ Images</h2>
+<p class="textgs">
 If you have a Zynq board, you need a PYNQ SD card image to get started. You can download a pre-compiled PYNQ image from the table below. If an image is not available for your board, you can build your own SD card image (see details below).
 
 <center><table class="pynq_images">
@@ -73,14 +74,17 @@ If you have a Zynq board, you need a PYNQ SD card image to get started. You can 
  </tr>
 </tbody></table></center>
 *For the Kria KV260, follow the guide for the Ubuntu image and then follow the Kria PYNQ setup instructions to install PYNQ.
+</p>
 
-## Build a PYNQ SD Card Image
 
+<h2> Build a PYNQ SD Card Image</h2>
+</p class="textgs">
 See the <a href="https://pynq.readthedocs.io/en/latest/pynq_sd_card.html">PYNQ image build guide</a> or details on building the PYNQ image. 
 The following rootfs files can be used for rebuilding an image for a custom board:
 
 - <a href="https://bit.ly/pynq_aarch64_2_7">PYNQ rootfs aarch64 v2.7</a>
 - <a href="https://bit.ly/pynq_arm_2_7">PYNQ rootfs arm v2.7</a>
+</p>
 
 <!--Start Intro-->
 <div class="flex-row">
