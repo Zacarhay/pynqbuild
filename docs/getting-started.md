@@ -1,6 +1,9 @@
 ---
 layout: default
 ---
+
+<div style="padding-top:10px" width="100%"><center><a href="https://pynq.readthedocs.io/en/latest/getting_started.html" class="bigbutton" style="width: 100% !important">Board Setup</a></center></div>
+
 <!-------------------------------------------------------------------------------------------->
 <!--Start Development Boards-->
 <div class="flex-row">
@@ -8,7 +11,7 @@ layout: default
     <h2> Development Boards</h2>
     <hr>
     <p class="text">
-      <zero-md src="./MD/indexmd/Who.md"></zero-md>
+      <zero-md src="./MD/indexmd/devboards.md"></zero-md>
     </p>
   </div>
 </div>
