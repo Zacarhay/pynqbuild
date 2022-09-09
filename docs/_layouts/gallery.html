@@ -25,9 +25,11 @@
         <img src="img/menu.png">
       </a>
       <ul class="menu-items flex-row-center flex-item">
-        <a href="index.html"><button class="dropbtn">Home</button></a>
-        <a href="boards.html"><button class="dropbtn">Boards</button></a>
-        <a href="getting-started.html"><button class="dropbtn">Getting Started</button></a>
+
+        {% for page in site.data.nav.docs %}
+        <a href="{{ page.href }}"><button class="dropbtn">{{ page.name }}</button></a>
+        {% endfor %}
+
         <div class="dropdown">
           <button class="dropbtn">PYNQ Community</button>
           <div class="dropdown-content">
