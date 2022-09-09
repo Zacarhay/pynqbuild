@@ -9,7 +9,7 @@ layout: default
     <hr>
     <p class="text">
       <img class="image image-wrap-text max-width-400" src="./images/Pynq-z1.png">
-      <zero-md src="./indexmd/Intro.md"></zero-md>
+      <zero-md src="./MD/indexmd/Intro.md"></zero-md>
     </p>
   </div>
 </div>
@@ -21,7 +21,7 @@ layout: default
     <h2> Who is PYNQ for?</h2>
     <hr>
     <p class="text">
-      <zero-md src="./indexmd/Who.md"></zero-md>
+      <zero-md src="./MD/indexmd/Who.md"></zero-md>
     </p>
   </div>
 </div>
@@ -41,7 +41,7 @@ layout: default
   <div class="flex-item flex-item-stretch-4 flex-column">
     <p class="text">
       <a class="highlight-text" href="https://jupyter.org/">Jupyter Notebook</a><br>
-      <zero-md src="./indexmd/Key.md"></zero-md>
+      <zero-md src="./MD/indexmd/Key.md"></zero-md>
     </p>
   </div>
 </div>
@@ -50,11 +50,11 @@ layout: default
   <div class="flex-item flex-column">
     <h2>What Software do I need</h2>
     <p class="text">
-      <zero-md src="./indexmd/What.md"></zero-md>
+      <zero-md src="./MD/indexmd/What.md"></zero-md>
     </p>
     <h2>Get Involved</h2>
     <p class="text">
-      <zero-md src="./indexmd/Get.md"></zero-md>
+      <zero-md src="./MD/indexmd/Get.md"></zero-md>
     </p>
   </div>
 </div>
