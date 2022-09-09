@@ -1,5 +1,5 @@
 ---
-layout: gallery
+layout: boards
 ---
 <!-------------------------------------------------------------------------------------------->
 <!--Start Who Only-->
@@ -16,7 +16,6 @@ layout: gallery
 <!-------------------------------------------------------------------------------------------->
 <!--Start Key Only-->
 <div class="flex-row">
-<div class="flex-item flex-column">
 {% for item in site.data.boards.docs limit:2 %}
   <div class="flex-column">
     <div class="card" padding-bottom="20px">
@@ -31,12 +30,10 @@ layout: gallery
   </div>
 {% endfor %}
 </div>
-</div>
 <!--End Who-->
 <!-------------------------------------------------------------------------------------------->
 <!--Start Key Only-->
 <div class="flex-row">
-<div class="flex-item flex-column">
 {% for item in site.data.boards.docs offest:2 limit:1 %}
   <div class="flex-column">
     <div class="card" padding-bottom="20px">
@@ -51,7 +48,6 @@ layout: gallery
   </div>
 {% endfor %}
 </div>
-</div>
 <!--End Who-->
 <!-------------------------------------------------------------------------------------------->
 <!--Start Key Only-->
@@ -59,7 +55,6 @@ layout: gallery
 <hr>
 
 <div class="flex-row">
-<div class="flex-item flex-column">
 {% for item in site.data.boards.docs offset:3 limit:4 %}
   <div class="flex-column">
     <div class="card" padding-bottom="20px">
@@ -74,7 +69,6 @@ layout: gallery
   </div>
 {% endfor %}
 </div>
-</div>
 <!--End Who-->
 <!-------------------------------------------------------------------------------------------->
 <!--Start Key Only-->
@@ -82,7 +76,6 @@ layout: gallery
 <hr>
 
 <div class="flex-row">
-<div class="flex-item flex-column">
 {% for item in site.data.boards.docs offset:7 limit:2 %}
   <div class="flex-column">
     <div class="card" padding-bottom="20px">
@@ -97,12 +90,10 @@ layout: gallery
   </div>
 {% endfor %}
 </div>
-</div>
 <!--End Who-->
 <!-------------------------------------------------------------------------------------------->
 <!--Start Key Only-->
 <div class="flex-row">
-<div class="flex-item flex-column">
 {% for item in site.data.boards.docs offset:9 limit:1 %}
   <div class="flex-column">
     <div class="card" padding-bottom="20px">
@@ -116,6 +107,5 @@ layout: gallery
     </div>
   </div>
 {% endfor %}
-</div>
 </div>
 
