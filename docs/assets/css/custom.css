@@ -291,11 +291,11 @@ a.bigbutton:hover {
 }
 
 a{
-  color: rgba(230, 51, 128, .75);
-  text-decoration: none;
+  color: rgba(230, 51, 128, .75) !important;
+  text-decoration: none !important;
 }
 
 a:hover{
-  color: rgba(230, 51, 128, 1);
-  text-decoration: underline;
+  color: rgba(230, 51, 128, 1) !important;
+  text-decoration: underline !important;
 }
